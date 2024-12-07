@@ -46,10 +46,6 @@ function Technologies() {
             alt="tailwind_css"
           />
         </div>
-        <p>
-          lorambtnbtnrnrtntnrntrnrnrbrnbrbmrlkbmlmvs;dvm;brbnrtbntrbntrkbntrkbnrkbnrkbnrkbnrnkn
-          ndjnenvrn rgi ngr jngrbnrkbnrkbnrb
-        </p>
       </div>
     </div>
   );
