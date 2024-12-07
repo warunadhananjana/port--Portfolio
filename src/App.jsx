@@ -1,4 +1,5 @@
 import Details from "./Components/Details";
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Technologies from "./Components/Technologies";
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Details />
         <Technologies />
+        <Footer />
       </div>
     </div>
   );
