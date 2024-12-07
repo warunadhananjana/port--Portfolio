@@ -46,6 +46,7 @@ function Technologies() {
             alt="tailwind_css"
           />
         </div>
+        <h1>warunad</h1>
       </div>
     </div>
   );
