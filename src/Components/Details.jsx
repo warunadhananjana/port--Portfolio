@@ -2,7 +2,7 @@ import aboutImg from "../assets/VR FOC SUSL-99.jpg";
 import { ABOUT_TEXT } from "../constants/index";
 import React from "react";
 
-function About() {
+function Details() {
   return (
     <div className="border-b border-neutral-900 pd-4">
       <h1 className=" my-20 text-center  text-4xl">
@@ -25,4 +25,4 @@ function About() {
   );
 }
 
-export default About;
+export default Details;
