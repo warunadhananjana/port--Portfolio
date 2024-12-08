@@ -68,7 +68,7 @@ export const PROJECTS = [
     technologies: ["React.js", "Node.js", "Mongo DB", "Express.js"],
   },
   {
-    title: "HAMMH",
+    title: "HAMMH (Group,Ongoing)",
     image: project4,
     description:
       "A web system for Hambantota Mental Health Unit to digitize records, enhancing efficiency, access, and patient care.",
