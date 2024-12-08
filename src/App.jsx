@@ -1,9 +1,10 @@
 import Details from "./Components/Details";
-import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Technologies from "./Components/Technologies";
+
 import "./index.css";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Hero />
         <Details />
         <Technologies />
-        <Footer />
+        <Projects />
       </div>
     </div>
   );
