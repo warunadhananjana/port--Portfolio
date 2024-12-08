@@ -3,16 +3,16 @@ import { PROJECTS } from "../constants";
 
 function Projects() {
   return (
-    <div className="border-b border-neutral-900 pb-12  text-white">
-      <h1 className="my-12 text-center text-4xl font-bold ">Projects</h1>
+    <div className="border-b border-neutral-900 pb-12 text-white">
+      <h1 className="my-12 text-center text-4xl font-bold">Projects</h1>
       <div className="flex flex-col items-center gap-8">
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="flex w-full max-w-4xl flex-wrap gap-6 lg:flex-nowrap lg:items-center"
+            className="flex w-full max-w-4xl flex-col gap-6 lg:flex-row lg:items-center"
           >
             {/* Project Image */}
-            <div className="w-full lg:w-1/4 flex justify-center">
+            <div className="w-full lg:w-1/4 flex justify-start lg:justify-center">
               <img
                 src={project.image}
                 alt={project.title}
