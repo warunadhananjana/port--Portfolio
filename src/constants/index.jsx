@@ -7,7 +7,7 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 
 export const ABOUT_TEXT = `I am Waruna Dhananjana, a passionate software engineering student at the Faculty of Computing, Sabaragamuwa University of Sri Lanka. With a strong foundation in front-end development, I specialize in crafting visually appealing and user-friendly interfaces. I enjoy working with modern technologies like React, Node.js, and Next.js, constantly exploring innovative ways to enhance user experiences. . My journey is fueled by a commitment to lifelong learning and the pursuit of excellence in the tech industry.`;
 
-export const EXPERIENCES = [
+export const Education = [
   {
     year: "2023 - Present",
     role: "Senior Full Stack Developer",
@@ -40,32 +40,45 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "MedExplore (Group)",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "MedExplorer simplifies prescriptions by providing detailed medication info, cost insights, and easy sharing with pharmacies for a seamless healthcare experience.",
+    technologies: [
+      " React Native",
+      " Express.js",
+      "Flask",
+      "Node.js",
+      " Cloud Firestore",
+      "Tensorflow",
+    ],
   },
   {
-    title: "Task Management App",
+    title: "TOUR GLOW (Group)",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "TourGlow is a travel platform offering personalized recommendations and seamless booking for effortless trip planning.",
+    technologies: ["HTML", "CSS", "PHP", "JavaScript"],
   },
   {
-    title: "Portfolio Website",
+    title: " MERN-BLOG (Individual,Ongoing)",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A web app for authors to manage blogs with images, while users view profiles, blogs, and enjoy secure login.",
+    technologies: ["React.js", "Node.js", "Mongo DB", "Express.js"],
   },
   {
-    title: "Blogging Platform",
+    title: "HAMMH",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A web system for Hambantota Mental Health Unit to digitize records, enhancing efficiency, access, and patient care.",
+    technologies: [
+      "Next js",
+      "Progress",
+      "prisma",
+      "Tailwind css",
+      "Google Maps Api",
+    ],
   },
 ];
 
