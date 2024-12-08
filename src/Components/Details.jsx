@@ -5,9 +5,9 @@ import React from "react";
 function Details() {
   return (
     <div className="border-b border-neutral-900 pd-4">
-      <h1 className=" my-20 text-center  text-4xl">
+      <h1 className=" my-20 text-center  text-4xl font-bold">
         About
-        <span className="text-neutral-500 ml-2"> Me</span>
+        <span className="text-neutral-500 ml-2 font-bold"> Me</span>
       </h1>
       <div className="flex flex-wrap items-start">
         <div className="w-full lg:w-1/2 lg:p-8">
