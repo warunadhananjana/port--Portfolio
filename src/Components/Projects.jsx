@@ -3,31 +3,39 @@ import { PROJECTS } from "../constants";
 
 function Projects() {
   return (
-    <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
-      <div>
+    <div className="border-b border-neutral-900 pb-12  text-white">
+      <h1 className="my-12 text-center text-4xl font-bold ">Projects</h1>
+      <div className="flex flex-col items-center gap-8">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className=" w-full lg:w-1/4">
+          <div
+            key={index}
+            className="flex w-full max-w-4xl flex-wrap gap-6 lg:flex-nowrap lg:items-center"
+          >
+            {/* Project Image */}
+            <div className="w-full lg:w-1/4 flex justify-center">
               <img
                 src={project.image}
-                width={100}
-                height={100}
                 alt={project.title}
-                className="mb-6 rounded "
+                className="rounded-lg object-cover shadow-lg w-40 h-40"
               />
             </div>
-            <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
-                >
-                  {tech}
-                </span>
-              ))}
+
+            {/* Project Details */}
+            <div className="w-full lg:w-3/4">
+              <h6 className="mb-2 text-2xl font-semibold text-purple-400">
+                {project.title}
+              </h6>
+              <p className="mb-4 text-neutral-300">{project.description}</p>
+              <div className="flex flex-wrap gap-2">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="rounded bg-purple-900 px-3 py-1 text-sm font-medium text-white shadow-sm"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         ))}
