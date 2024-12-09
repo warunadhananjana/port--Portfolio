@@ -11,10 +11,37 @@ function Navbar() {
         <img className=" mx-2 w-10" src={logo} alt="" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaFacebook />
-        <FaInstagram />
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/waruna-dhananjana-08137b228/"
+          className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-blue-700 hover:text-white"
+        >
+          <FaLinkedin />
+        </a>
+
+        {/* GitHub */}
+        <a
+          href="https://github.com/warunadhananjana"
+          className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-gray-700 hover:text-white"
+        >
+          <FaGithub />
+        </a>
+
+        {/* Facebook */}
+        <a
+          href="https://www.facebook.com/warunadhananjana"
+          className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-blue-600 hover:text-white"
+        >
+          <FaFacebook />
+        </a>
+
+        {/* Instagram */}
+        <a
+          href="https://www.instagram.com/warunadhananjana/"
+          className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-pink-600 hover:text-white"
+        >
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );

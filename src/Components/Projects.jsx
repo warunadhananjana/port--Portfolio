@@ -25,11 +25,13 @@ function Projects() {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4 flex justify-start lg:justify-center"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="rounded-lg object-cover shadow-lg w-40 h-40"
-              />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="rounded-lg object-cover shadow-lg w-40 h-40"
+                />
+              </a>
             </motion.div>
 
             {/* Project Details */}
@@ -39,9 +41,16 @@ function Projects() {
               transition={{ duration: 1 }}
               className="w-full lg:w-3/4"
             >
-              <h6 className="mb-2 text-2xl font-semibold text-purple-400">
-                {project.title}
-              </h6>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block hover:text-purple-300 transition"
+              >
+                <h6 className="mb-2 text-2xl font-semibold text-purple-400">
+                  {project.title}
+                </h6>
+              </a>
               <p className="mb-4 text-neutral-300">{project.description}</p>
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, index) => (

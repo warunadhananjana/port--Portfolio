@@ -21,6 +21,7 @@ export const PROJECTS = [
       " Cloud Firestore",
       "Tensorflow",
     ],
+    link: "https://github.com/Rdilshan/MedExplorer",
   },
   {
     title: "TOUR GLOW (Group)",
@@ -28,6 +29,7 @@ export const PROJECTS = [
     description:
       "TourGlow is a travel platform offering personalized recommendations and seamless booking for effortless trip planning.",
     technologies: ["HTML", "CSS", "PHP", "JavaScript"],
+    link: "https://github.com/amcishara/TourGlow",
   },
   {
     title: " MERN-BLOG (Individual,Ongoing)",
@@ -35,6 +37,7 @@ export const PROJECTS = [
     description:
       "A web app for authors to manage blogs with images, while users view profiles, blogs, and enjoy secure login.",
     technologies: ["React.js", "Node.js", "Mongo DB", "Express.js"],
+    link: "https://github.com/warunadhananjana/Mern-blog-",
   },
   {
     title: "HAMMH (Group,Ongoing)",
@@ -48,6 +51,7 @@ export const PROJECTS = [
       "Tailwind css",
       "Google Maps Api",
     ],
+    link: "https://github.com/Rdilshan/HAMMH",
   },
 ];
 
