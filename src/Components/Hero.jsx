@@ -1,10 +1,7 @@
 import React from "react";
 import profileimg from "../assets/DSC1_7016.jpg";
 import { motion } from "motion/react";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -36,27 +33,25 @@ function Hero() {
               initial="hidden"
               animate="visible"
             >
+              {/* Social Links */}
               <a
                 href="https://www.linkedin.com/in/waruna-dhananjana-08137b228/"
                 className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-blue-700 hover:text-white"
               >
                 <FaLinkedin />
               </a>
-
               <a
                 href="https://github.com/warunadhananjana"
                 className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-gray-700 hover:text-white"
               >
                 <FaGithub />
               </a>
-
               <a
                 href="https://www.facebook.com/warunadhananjana"
                 className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-blue-600 hover:text-white"
               >
                 <FaFacebook />
               </a>
-
               <a
                 href="https://www.instagram.com/warunadhananjana/"
                 className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-900 text-gray-400 transition duration-300 hover:bg-pink-600 hover:text-white"
@@ -86,8 +81,25 @@ function Hero() {
               am eager to contribute and learn through hands-on experience as an
               intern.
             </motion.p>
+
+            {/* Add the Download CV Button */}
+            <motion.div
+              variants={container(1.5)}
+              initial="hidden"
+              animate="visible"
+              className="flex justify-center lg:justify-start mt-6"
+            >
+              <a
+                href="https://drive.google.com/uc?export=download&id=1x8uhKYIdrObcPS8l9YxmH3mlC3qNOK10"
+                rel="noopener noreferrer"
+                className="container relative inline-block text-white text-lg font-semibold px-6 py-3 border-2 border-purple-500 rounded-lg cursor-pointer transition-all duration-300 hover:bg-purple-500 hover:text-black"
+              >
+                Download CV
+              </a>
+            </motion.div>
           </div>
         </div>
+
         <div className="w-full lg:w-1/2 order-1 lg:order-2 lg:pl-12 lg:mt-32">
           <div className="flex justify-center">
             <motion.img

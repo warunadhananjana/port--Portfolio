@@ -7,8 +7,9 @@
   font-family: "Inter", sans-serif;
 }
 
-
-body { 
-  background-color: radial-gradient(rgba(120, 119, 198, 0.3), rgba(255, 255, 255, 0));
+body {
+  background-color: radial-gradient(
+    rgba(120, 119, 198, 0.3),
+    rgba(255, 255, 255, 0)
+  );
 }
-
