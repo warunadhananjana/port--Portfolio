@@ -57,6 +57,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Dhananjana,julampitiya road,omara,walasmulla ",
-  phoneNo: "+70 201 4607 ",
+  phoneNo: "+94 702 014 607 ",
   email: "warunad999@gmai.com",
 };
