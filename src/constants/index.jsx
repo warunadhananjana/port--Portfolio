@@ -32,15 +32,14 @@ export const PROJECTS = [
     link: "https://github.com/amcishara/TourGlow",
   },
   {
-    title: " MERN-BLOG (Individual,Ongoing)",
+    title: " E-commerce  (Individual,Ongoing)",
     image: project3,
-    description:
-      "A web app for authors to manage blogs with images, while users view profiles, blogs, and enjoy secure login.",
-    technologies: ["React.js", "Node.js", "Mongo DB", "Express.js"],
-    link: "https://github.com/warunadhananjana/Mern-blog-",
+    description: "Admin dashboard with responsive design, product management.",
+    technologies: ["Laravel", "Html", "Css", "Mysql", "Bootstrap"],
+    link: "https://github.com/warunadhananjana/E-commerce",
   },
   {
-    title: "HAMMH (Group,Ongoing)",
+    title: "HAMMH (Group)",
     image: project4,
     description:
       "A web system for Hambantota Mental Health Unit to digitize records, enhancing efficiency, access, and patient care.",
