@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am Waruna Dhananjana, a passionate software enginee
 
 export const PROJECTS = [
   {
-    title: " E-commerce  (Individual,Ongoing)",
+    title: " E-commerce  (Individual)",
     image: project3,
     description: "Admin dashboard with responsive design, product management.",
     technologies: ["Laravel", "Html", "Css", "Mysql", "Bootstrap"],
