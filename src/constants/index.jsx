@@ -9,6 +9,13 @@ export const ABOUT_TEXT = `I am Waruna Dhananjana, a passionate software enginee
 
 export const PROJECTS = [
   {
+    title: " E-commerce  (Individual,Ongoing)",
+    image: project3,
+    description: "Admin dashboard with responsive design, product management.",
+    technologies: ["Laravel", "Html", "Css", "Mysql", "Bootstrap"],
+    link: "https://github.com/warunadhananjana/E-commerce",
+  },
+  {
     title: "MedExplore (Group)",
     image: project1,
     description:
@@ -31,13 +38,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "PHP", "JavaScript"],
     link: "https://github.com/amcishara/TourGlow",
   },
-  {
-    title: " E-commerce  (Individual,Ongoing)",
-    image: project3,
-    description: "Admin dashboard with responsive design, product management.",
-    technologies: ["Laravel", "Html", "Css", "Mysql", "Bootstrap"],
-    link: "https://github.com/warunadhananjana/E-commerce",
-  },
+
   {
     title: "HAMMH (Group)",
     image: project4,
